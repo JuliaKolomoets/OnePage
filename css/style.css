@@ -99,4 +99,14 @@ div, a, ul, li, h1, h2, h3, h4, p{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.information .item{
+    width: 25%;
+    display: flex;
+}
+.d-flex{
+    display: flex;
+}
+.item i{
+    margin-right: 28px;
+}
 
