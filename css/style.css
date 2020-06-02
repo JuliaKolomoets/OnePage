@@ -94,4 +94,9 @@ div, a, ul, li, h1, h2, h3, h4, p{
     font-family: 'Nunito Sans', sans-serif;
     margin-bottom: 30px;
 }
+.information{
+    background-color: #10c9c3;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
