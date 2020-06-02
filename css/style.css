@@ -126,3 +126,6 @@ div, a, ul, li, h1, h2, h3, h4, p{
 .hgfh{
     dominant-baseline: ideographic;
 }
+.information{
+    width: 100%;
+}
