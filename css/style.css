@@ -117,16 +117,62 @@ div, a, ul, li, h1, h2, h3, h4, p{
     font-size: 12px;
     margin-top: 12px;
     line-height: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 .item{
     color: white;
     font-size: 18px;
     line-height: 18px;
 }
-.hgfh{
-    dominant-baseline: ideographic;
+.profession_skills{
+    padding: 100px 0;
 }
-.information{
-    width: 100%;
-    color: white;
+.design_progress{
+    max-width: 500px;
+    height: 3px;
+    background-color: #d8d8d8;
+}
+.design_progress:before{
+    background-color:#10c9c3 ;
+    display: block;
+    height: 3px;
+    width: 75%;
+    content: "";
+}
+.web_progress{
+    max-width: 500px;
+    height: 3px;
+    background-color: #d8d8d8;
+}
+.web_progress:before{
+    background-color:#10c9c3 ;
+    display: block;
+    height: 3px;
+    width: 90%;
+    content: "";
+}
+.marketing_progress{
+    max-width: 500px;
+    height: 3px;
+    background-color: #d8d8d8;
+}
+.marketing_progress:before{
+    background-color:#10c9c3 ;
+    display: block;
+    height: 3px;
+    width: 65%;
+    content: "";
+}
+.profession_skills h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.profession_skills p{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
