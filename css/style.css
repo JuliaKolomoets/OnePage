@@ -192,6 +192,10 @@ div, a, ul, li, h1, h2, h3, h4, p{
     display: inline-block;
     justify-content: space-between;
 }
+.service img:hover{
+    transform:rotate(360deg);
+    transition: 0.3s;
+}
 .service h4{
     color: #191919;
     text-transform: uppercase;
@@ -203,6 +207,7 @@ div, a, ul, li, h1, h2, h3, h4, p{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
     color: #787878;
+    margin-bottom: 60px;
 }
 .blockquote{
     background-color: #10c9c3;
@@ -225,4 +230,15 @@ div, a, ul, li, h1, h2, h3, h4, p{
 .blockquote p:last-of-type{
     font-size: 12px;
     font-weight: 500;
+}
+.our_clients{
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.our_clients a img:hover{
+    transform: scale(1.5);
 }
