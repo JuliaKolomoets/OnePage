@@ -184,12 +184,13 @@ div, a, ul, li, h1, h2, h3, h4, p{
 .all_services{
     max-width: 1130px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+
 }
 .service{
-    max-width: 220px;
+    max-width: 250px;
     text-align: center;
+    display: inline-block;
+    justify-content: space-between;
 }
 .service h4{
     color: #191919;
@@ -202,4 +203,26 @@ div, a, ul, li, h1, h2, h3, h4, p{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
     color: #787878;
+}
+.blockquote{
+    background-color: #10c9c3;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+.blockquote blockquote{
+    background-color: #10c9c3;
+    max-width: 830px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.blockquote p:first-of-type{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.blockquote p:last-of-type{
+    font-size: 12px;
+    font-weight: 500;
 }
