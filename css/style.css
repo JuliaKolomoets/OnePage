@@ -5,7 +5,7 @@
 a{
     text-decoration: none;
 }
-div, a, ul, li, h1, h2, h3, h4, p{
+div, a, ul, li, h1, h2, h3, h4, p, input, button{
     box-sizing: border-box;
 }
 .top_block{
@@ -267,12 +267,50 @@ div, a, ul, li, h1, h2, h3, h4, p{
     max-width: 535px;
     text-align: center;
 }
-.need_project form input{
-    width: 100%;
+.first_line{
+    display: flex;
+    justify-content: space-between;
+}
+.first_line input{
+    min-width: 320px;
+    padding: 19px 0 18px 20px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    border: none;
     margin-bottom: 30px;
+}
+.second input {
+    margin-bottom: 30px;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    padding: 18px 0 19px 20px;
+    width: 100%;
 }
 .need_project form textarea{
     width: 100%;
+    height: 175px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    border: none;
+    padding-top: 19px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.need_project button{
+    padding: 23px 33px;
+    text-align: center;
+    background-color: #10c9c3;
+    min-width: 180px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
 }
 footer{
     background-color: #141414;
