@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex_box{
+    background-color: red;
+    height: 100px;
+    margin: 10px 0;
+    flex-basis: 200px;
+    border: solid 1px #1d1d1d;
+}
+.flex_container{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    height: 100vh;
+
+}
+.box_first{
+    align-self: flex-end;
+    margin: auto;
+
+}
